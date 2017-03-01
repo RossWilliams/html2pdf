@@ -1,0 +1,22 @@
+{
+  "name": "rendertopdf",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "stop": "node server.js"
+  },
+  "engines": { "node" : ">=6.6.0" },
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "phantom-render-stream": "^2.2.0",
+    "phantomjs-prebuilt": "^2.1.14",
+    "valid-url": "^1.0.9"
+  }
+}
