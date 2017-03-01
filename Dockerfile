@@ -4,4 +4,4 @@ WORKDIR /app
 COPY . /app
 RUN npm install --production
 EXPOSE 3000
-CMD["pm2", "start", "--no-daemon"]
+CMD["pm2", "start", "processes.json", "--no-daemon"]
