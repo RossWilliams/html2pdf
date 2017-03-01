@@ -5,4 +5,4 @@ ADD package.json ./
 RUN npm i --production
 ADD . /var/www/app
 EXPOSE 3000
-CMD ["pm2", "start", "processes.json", "--no-daemon"]
+CMD ["pm2", "start", "process.json", "--no-daemon"]
